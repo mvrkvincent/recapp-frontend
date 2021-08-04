@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# RecAppAcademy <!-- omit in toc -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This 3 session workshop is a deep dive into some of the key topics covered in the App Academy [curriculum](open.appacademy.io) as they relate to Full Stack Development. This following content is not meant to introduce new topics or emerging technology. For a deep dive into new concepts, stay tuned for future workshop invitations and check this section of the docs frequently. - [Mark](https://markvincent.dev)
 
-## Available Scripts
+## Contents <!-- omit in toc -->
 
-In the project directory, you can run:
+- [Session 1: Backend Development](#session-1-backend-development)
+- [Session 2: Frontend Development](#session-2-frontend-development)
+- [Session 3: Connecting the Full Stack](#session-3-connecting-the-full-stack)
+- [Overview Diagram](#overview-diagram)
 
-### `npm start`
+## Session 1: Backend Development
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Session Recording](https://us02web.zoom.us/rec/share/sTmu_I1VlaGT4fcxcQzU2Abygt3XdjOWMKGQ1Uayp-Hq2I3MnVcUKWzU9jnUxBeW.CsSaNmu9zB7QXpMk) 
+- Passcode: `@recapp1`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Topics Covered
+- What is a Feature (Functional vs. Non-Functional)
+- What is a Database (+ Replication/Redundancy)
+- What is a Server (Reads vs. Writes + Reliability)
+- What is an API (REST)
+- Environment, Configuration, and Package.json
+- Node Modules & Imports
+- Models + Schema + ORM/ODM
+>
+--- break ---
+>
+- Routers + Routes
+- Microservices (Separation of Concerns/Services) 
+- Load Balancing (Reliability)
+- Caching (Latency + Availability)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Session 2: Frontend Development
 
-### `npm run build`
+- [Session Recording](https://us02web.zoom.us/rec/share/XSai0xCBYZPBXXJcyAh3xrxqR6lzuEW_MafDcoCTlTTQhQ4IC4O75l1Dci79yFp8.pmkg3SGVj2GqnLTm) 
+- Passcode: `@recapp2`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Topics Covered
+- What is a Client
+- What is the DOM
+- What is a Document
+- Create-React-App
+> 
+--- break ---
+>
+- Entry File + Index.js
+- What is a Component (Class vs. Function)
+- Props (Arguments to Functions)
+- State + State Management
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Session 3: Connecting the Full Stack
 
-### `npm run eject`
+- [Session Recording](https://us02web.zoom.us/rec/share/gZOeUQzTkSW7_DpTQBCdJQkg98V-OtwpBWfaVVUmdRQpAyBa2po6yO9tEdFdwt2a.BuXwRzT6iTpaxG7p) 
+- Passcode: `@recapp3`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Overview Diagram
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Right click and save this diagram to zoom in. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Recapp Overview Diagram](/images/recapp.png)
